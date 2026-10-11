@@ -802,6 +802,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "led-fade"
+version = "0.1.0"
+dependencies = [
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "embassy-executor",
+ "embassy-rp",
+ "embassy-time",
+ "panic-probe",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.190"
 source = "registry+https://github.com/rust-lang/crates.io-index"
