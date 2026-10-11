@@ -815,6 +815,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "led-flash"
+version = "0.1.0"
+dependencies = [
+ "cortex-m-rt",
+ "defmt",
+ "defmt-rtt",
+ "embassy-executor",
+ "embassy-rp",
+ "embassy-time",
+ "panic-probe",
+]
+
+[[package]]
 name = "led-switch"
 version = "0.1.0"
 dependencies = [
